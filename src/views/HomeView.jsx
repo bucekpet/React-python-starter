@@ -4,7 +4,7 @@ export function HomeView() {
     const [text, setText] = useState('')
 
     useEffect(() => {
-        fetch('http://localhost:8080/text')
+        fetch(import.meta.env.VITE_API_URL + '/text')
             .then(response => response.json())
             .then(data => setText(data.data))
             .catch(error => alert(`Error communicating with backend: ${error}`))
