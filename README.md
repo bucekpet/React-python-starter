@@ -9,12 +9,6 @@ cd React-python-starter
 npm install
 ```
 
-## Build and run 🛠️
-```
-npm run build
-python server/server.py
-```
-
 ## Run in dev 💻
 ```
 npm run dev
