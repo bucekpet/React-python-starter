@@ -1,8 +1,28 @@
-# React + Vite
+# React + Python Starter Pack 🛠️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+## Clone and install dependencies 📦
+```
+git clone https://github.com/bucekpet/React-python-starter.git
+cd React-python-starter
+npm install
+```
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Build and run 🛠️
+```
+npm run build
+python server/server.py
+```
+
+## Run in dev 💻
+```
+npm run dev
+```
+
+## Docker 🐳
+```
+docker pull nikolaik/python-nodejs:python3.12-nodejs18-alpine
+docker build -t react-python .
+docker run -p 8080:8080 react-python
+```

@@ -6,7 +6,7 @@ export function Navbar() {
         <>
             <nav>
                 <ul>
-                    <li><strong><b className='text-blue'>React</b>  ⚛️ + <b className='text-blue'>Python</b>  🐍 <br /> starter pack</strong></li>
+                    <li><strong><b className='text-blue'>React</b> + <b className='text-blue'>Python</b> starter pack 🛠️</strong></li>
                 </ul>
                 <ul>
                     <li><Link to="/" className='contrast'>Home 🏠</Link></li>
@@ -17,8 +17,8 @@ export function Navbar() {
                                 Dropdown
                             </summary>
                             <ul dir='rtl'>
-                                <li>Nothing's here</li>
-                                <li>Also not here</li>
+                                <li><Link to="/" className='contrast'>Nothing's here</Link></li>
+                                <li><Link to="/" className='contrast'>Also not here</Link></li>
                             </ul>
                         </details>
                     </li>

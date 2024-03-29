@@ -7,6 +7,7 @@ export function HomeView() {
         fetch('http://localhost:8080/text')
             .then(response => response.json())
             .then(data => setText(data.data))
+            .catch(error => alert(`Error communicating with backend: ${error}`))
     })
 
     return (
