@@ -22,7 +22,5 @@ npm run dev
 
 ## Docker 🐳
 ```
-docker pull nikolaik/python-nodejs:python3.12-nodejs18-alpine
-docker build -t react-python .
-docker run -p 8080:8080 react-python
+docker compose up
 ```
