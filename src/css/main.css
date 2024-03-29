@@ -1,0 +1,10 @@
+.text-blue {
+    color: #01abfe;
+}
+
+.text-blue-grad {
+    background: -webkit-linear-gradient(#00d4ff, #090979);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
