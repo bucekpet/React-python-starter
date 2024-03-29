@@ -17,8 +17,8 @@ export function Navbar() {
                                 Dropdown
                             </summary>
                             <ul dir='rtl'>
-                                <li><Link to="/" className='contrast'>Nothing's here</Link></li>
-                                <li><Link to="/" className='contrast'>Also not here</Link></li>
+                                <li><Link to="/" className='contrast'>Nothing's here 👀</Link></li>
+                                <li><Link to="/" className='contrast'>Also not here 🤷</Link></li>
                             </ul>
                         </details>
                     </li>

@@ -12,9 +12,11 @@ export function HomeView() {
 
     return (
         <>
-            <h1 className="text-blue-grad">Welcome</h1>
-
-            <h3 className="text-blue">{text}</h3>
+            <h1><strong className="text-blue-grad" style={{ fontSize: '6vh' }}>Hello World!</strong> 👋</h1>
+            <hr />
+            <article>
+                <h3 className="text-blue">{text}</h3>
+            </article>
         </>
     )
 }
