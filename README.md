@@ -1,7 +1,9 @@
 # React + Python Starter Pack 🛠️
 
-React frontend with react router and python backend in one package. Fully dockerized!
-Made with picocss.
+React frontend with react router and picocss and python backend in one package. 
+<br>
+Fully dockerized! 🐳
+
 ---
 
 ## Clone and install dependencies 📦
